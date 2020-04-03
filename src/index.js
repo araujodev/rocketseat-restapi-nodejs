@@ -10,6 +10,7 @@ app.use(
 )
 
 require("./controllers/authController")(app)
+require("./controllers/projectController")(app)
 
 app.listen(3000, () => {
   console.log("Running on 3000")
